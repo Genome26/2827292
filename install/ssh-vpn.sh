@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # ==================================================
-REPOSC="https://github.com/Genome26/2827292/2827292"
+REPOSC="https://raw.githubusercontent.com/Genome26/2827292/2827292"
 # etc
 apt dist-upgrade -y
 apt install netfilter-persistent -y

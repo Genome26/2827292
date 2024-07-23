@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOSC="https://github.com/Genome26/2827292/2827292"
+REPOSC="https://raw.githubusercontent.com/Genome26/2827292/2827292"
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
 OS=`uname -m`;
