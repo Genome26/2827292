@@ -103,13 +103,13 @@ echo
 echo -e " ${C}┌──────────────────────────────────────────┐${N}"
 echo -e " ${C}│${W}       MENU PILIHAN INPUT DOMAIN VPS      ${C}│${N}"
 echo -e " ${C}└──────────────────────────────────────────┘${N}"
-echo -e " ${C}┌──────────────────────────────────────────┐${N}"
-echo -e " ${C}│${W} [${C}01${W}] Your own domain ${C}│${N}"
-echo -e "$ {C}│                                          │${N}"
-echo -e " ${C}│${W} [${C}02${W}] Domain That Has Script ${C}│${N}"
-echo -e "$ {C}│                                          │${N}"
-echo -e " ${C}│${W} [${C}03${W}] Host Domain & Own SlowDNS ${C}│${N}"
-echo -e " ${C}└──────────────────────────────────────────┘${N}"
+echo -e " ${C}┌───────────────────────────────────────────────────────────────┐${N}"
+echo -e " ${C}│${W} [${C}01${W}] Your own domain                          ${C}│${N}"
+echo -e " ${C}│                                               │${N}"
+echo -e " ${C}│${W} [${C}02${W}] Domain That Has Script                   ${C}│${N}"
+echo -e " ${C}│                                               │${N}"
+echo -e " ${C}│${W} [${C}03${W}] Host Domain & Own SlowDNS                ${C}│${N}"
+echo -e " ${C}└───────────────────────────────────────────────────────────────┘${N}"
 until [[ $domain =~ ^[132]+$ ]]; do
     read -p " Enter your choice   1/2/3 : " domain
 done
